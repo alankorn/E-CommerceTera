@@ -156,3 +156,7 @@ body{
         display: none;
     }
 }
+
+.logo{
+    max-width: 10%;
+}
