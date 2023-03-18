@@ -109,6 +109,7 @@ body{
 
 .footer{
     background-color: aqua;
+    width: auto;
 }
 
 
@@ -144,7 +145,7 @@ body{
 .col-3{width: 25%;}
 .col-4{width: 33.33%;}
 .col-5{width: 41.66%;}
-.col-6{width: 50%;}
+.col-6{width: 49.5%;}
 .col-7{width: 58.33%;}
 .col-8{width: 66.66%;}
 .col-9{width: 75%;}
@@ -165,7 +166,7 @@ body{
 }
 
 .logo{
-    max-width: 10%;
+    max-width: 12em;
 }
 
 .nav-link{
@@ -173,5 +174,41 @@ body{
     font-family: 'Lato', sans-serif;
     font-weight: 900;
 
+
 }
 
+.btn{
+    background-color: #fff;
+    color: #5166A8;
+    border-color: #fff;
+}
+#sacolinha{
+    max-width: 2.5em;
+}
+.navbar-toggler{
+    background-color: white;
+    color: #5166A8;
+    
+}
+.navbar-toggler:hover{
+    background-color:#5166A8;
+    border-color: white;
+    scale: 1.1;
+}
+
+footer{
+    width: 100%;
+    background-color: #5166A8;
+    padding-left:1em ;
+    padding-bottom: 1em;
+    color: white;
+}
+
+#redessociais{
+    width: 10em;
+    display: flex;
+}
+footer div img{
+    width: 2em;
+    margin-right: 1em;
+}
