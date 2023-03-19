@@ -107,12 +107,6 @@ body{
     display: flex;
 }
 
-.footer{
-    background-color: aqua;
-    width: auto;
-}
-
-
 .borda-vermelha{
     border-color: rgb(56, 4, 4);
     background-color: red;
@@ -196,19 +190,46 @@ body{
     scale: 1.1;
 }
 
+.btn-outline-success:hover{
+    background-color:#5166A8;
+    border-color: white;
+    scale: 1.1;
+}
+
 footer{
     width: 100%;
     background-color: #5166A8;
     padding-left:1em ;
     padding-bottom: 1em;
     color: white;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #redessociais{
-    width: 10em;
-    display: flex;
+    width: 33%;
 }
-footer div img{
+
+#redessociais img{
     width: 2em;
     margin-right: 1em;
+}
+
+#site_seguro img{
+    width: 10em;
+    margin-right: 1em;
+}
+
+#formas-pagto{
+    width: 34%;
+    text-align: right;
+}
+
+#formas-pagto img{
+    width: 10em;
+    margin-right: 0;
+    float: right;
+}
+footer div{
+    margin-top: 1em;
 }
