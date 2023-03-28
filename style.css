@@ -1,5 +1,5 @@
 
-/*definindo o grid de 12 colunas*/
+/*definindo o grid de 12 colunas
 .col-1{width: 8.33%;}
 .col-2{width: 16.66%;}
 .col-3{width: 25%;}
@@ -11,7 +11,7 @@
 .col-9{width: 75%;}
 .col-10{width: 83.33%;}
 .col-11{width: 91.66%;}
-.col-12{width: 100%;}
+.col-12{width: 100%;}*/
 
 *{
     margin: 0;
@@ -20,23 +20,16 @@
 
 }
 
-body{
+/*body{
     margin: 0;
     padding: 0;
     border: 0;
-}
+}*/
 
-.row{
-    width: 100%;
-    display: flex;
-    padding: 0.5rem;
-    font-size: 0px;
-    
-}
-.row::after{
+/*.row::after{
     content: ""; 
-    /*display: table; display em tabela*/
-    clear: both; /*limpar de ambos os lados*/}
+    /*display: table; display em tabela
+    clear: both; limpar de ambos os lados}*/
 
 .col{
     min-height: 3rem; 
@@ -49,41 +42,47 @@ body{
     min-height: 15vh;
 }
 
-.carrocel{
-    background-color: burlywood;
+/*.carrocel{
+    
     min-height: 25vh;
-}
+}*/
 
-.galeria{
+/*.galeria{
 
     display: inline-block;
-    /*margin: 5%;*/
+    /*margin: 5%;
     min-height: 25vh;
     width: 100%;
+    border:  solid black;
     
-}
+}*/
 
 .conteudo1{
     min-height: 25vh;
-    background-color: coral;
+    /*background-color: coral;*/
+    border:  solid black;
 }
 
 .conteudo2{
     min-height: 25vh;
-    background-color: beige;
+    /*background-color: beige;*/
+    border: solid black;
 }
 
 .conteudo3{
     min-height: 25vh;
-    background-color:chocolate;
+    /*background-color:chocolate;*/
+    border: solid black;
 }
+
 
 .conteudo4{
     min-height: 25vh;
-    background-color: crimson;
+    /*background-color: crimson;*/
+    border: solid black;
 }
 
-.conteudo5{
+/*.conteudo5{
     min-height: 25vh;
     background-color:  crimson;
 }
@@ -107,7 +106,7 @@ body{
     display: flex;
 }
 
-.borda-vermelha{
+/*.borda-vermelha{
     border-color: rgb(56, 4, 4);
     background-color: red;
     
@@ -131,15 +130,15 @@ body{
 
 .borda-laranja{
     background-color: orange;
-}
+}*/
 
-@media(min-width:500px){
-.col-1{width: 8.33%;}
+@media(min-width:720px){
+.col-1{width: 8.33%;} 
 .col-2{width: 16.66%;}
 .col-3{width: 25%;}
 .col-4{width: 33.33%;}
 .col-5{width: 41.66%;}
-.col-6{width: 49.5%;}
+.col-6{width: 49.7%;}
 .col-7{width: 58.33%;}
 .col-8{width: 66.66%;}
 .col-9{width: 75%;}
@@ -149,7 +148,9 @@ body{
 
 }
 
-@media print {
+
+
+/*@media print {
     .borda{
         border-color: red;
     }
@@ -157,7 +158,7 @@ body{
     .video{
         display: none;
     }
-}
+}*/
 
 .logo{
     max-width: 12em;
@@ -198,38 +199,60 @@ body{
 
 footer{
     width: 100%;
-    background-color: #5166A8;
-    padding-left:1em ;
-    padding-bottom: 1em;
+    background: linear-gradient(#5166A8, black) ;
+    padding: 2%;
+    padding-left: 10%;
     color: white;
-    display: flex;
-    justify-content: space-evenly;
+    
+
+  
 }
 
 #redessociais{
-    width: 33%;
+    width: 33.3%;
+    
 }
 
 #redessociais img{
-    width: 2em;
-    margin-right: 1em;
+    width: 10%;
+
+
+    
 }
 
 #site_seguro img{
-    width: 10em;
-    margin-right: 1em;
+    width: 33.3%;
+    
+    
+    
+
 }
 
 #formas-pagto{
-    width: 34%;
-    text-align: right;
+    width: 33.3%;
+
+    
+
+    
 }
 
 #formas-pagto img{
-    width: 10em;
-    margin-right: 0;
-    float: right;
+    width: 30%;
+    
+    
+
+    
 }
 footer div{
-    margin-top: 1em;
+    
+    
+    
+    
+    
+}
+
+
+
+h5{
+    font-size: 70%;
 }
