@@ -106,12 +106,19 @@ h5{
 }
 
 .imgconteudo{
-    width: 100%;
-    height: 25rem;
-    /*margin-left: 25%;
-    margin-top: 3%;*/
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 3%;
     
 }
+
+.imgconteudo3{
+    width: 90%;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+
 
 .conteudo3{
   width: 50%;
