@@ -48,6 +48,9 @@
 
 }
 
+.nav-item :hover{
+    font-size: larger;
+}
 .btn{
     background-color: #fff;
     color: #5166A8;
@@ -124,4 +127,20 @@ h5{
   width: 50%;
   margin-left: 50%;
   transform: translateX(-50%);
+}
+
+.form-login{
+    background-color: #5166A8;
+    color:white ;
+}
+
+label{
+    color: black;
+}
+
+#lembrese{
+    color: #fff;
+}
+footer{
+    margin: 0;
 }
