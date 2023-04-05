@@ -144,3 +144,10 @@ label{
 footer{
     margin: 0;
 }
+
+#loginButton{
+    background-color: #5166A8;
+}
+#cadastroButton{
+    color: #5166A8;
+}
