@@ -1,0 +1,41 @@
+[
+    {
+        "nome": "Camiseta masculina",
+        "id": "01",
+        "tamanhos": ["P","M","G","GG"],
+        "material": "Algodão",
+        "marca": "nike",
+        "img":"./images/camisa_nike.webp"
+      },
+  
+      {
+          "nome": "Moletom Nike",
+          "id": "02",
+          "tamanhos": ["P","M","G","GG"],
+          "material": "Algodão",
+          "marca": "nike",
+          "img" : "./images/calca_moletom.png"
+      },
+      {
+        "nome": "Moletom Adidas",
+        "id": "03",
+        "tamanhos": ["P","M","G","GG"],
+        "material": "Algodão",
+        "marca": "adidas",
+        "img" : "./images/moletomadidas.png"
+    },
+
+    {
+        "nome": "Calça jogger Moletom",
+        "id": "04",
+        "tamanhos": ["P","M","G","GG"],
+        "material": "Algodão",
+        "marca": "nike",
+        "img" : "./images/calca_moletom.png"
+    }
+]
+    
+
+    
+
+    
