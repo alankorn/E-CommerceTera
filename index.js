@@ -9,11 +9,11 @@ function loadRemoteData(url, callback){
 
 function loadProducts(){
     document.querySelector("#itensMaisVendidos").innerHTML = ""
-    loadRemoteData("../produtosmaisvendidos.json",createProducts)
+    loadRemoteData("produtosmaisvendidos.json",createProducts)
 }
 
 function createProducts(){
-    fetch("../produtosmaisvendidos.json")
+    fetch("produtosmaisvendidos.json")
     .then((res) => res.json())
     .catch((e) =>console.log({e}, e.message))
     .then((jsonData)=> {
