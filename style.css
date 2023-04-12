@@ -67,7 +67,7 @@
 .navbar-toggler:hover{
     background-color:#5166A8;
     border-color: white;
-    scale: 1.1;
+    
 }
 
 .btn-outline-success:hover{
@@ -150,4 +150,16 @@ footer{
 }
 #cadastroButton{
     color: #5166A8;
+}
+
+
+
+
+#formulario_contato{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    padding: 2%;
+    background-color: #5166A8;
 }
