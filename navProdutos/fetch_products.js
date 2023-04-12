@@ -102,23 +102,44 @@ let produtos = [
                 , "frete": 10.0
             }
         ]
+    },
+    {
+        "nome_produto": "Shorts Masculino Kauã Reymond"
+        , "tipos": [
+            {
+                "tamanho": "G"
+                , "quantidade_produto": 6
+                , "preco": 299.99
+                , "marca": "Globo"
+                , "frete": 11.0
+            },
+            {
+                "tamanho": "M"
+                , "quantidade_produto": 15
+                , "preco": 289.99
+                , "marca": "Globo"
+                , "frete": 11.0
+            },
+            {
+                "tamanho": "P"
+                , "quantidade_produto": 17
+                , "preco": 279.99
+                , "marca": "Globo"
+                , "frete": 11.0
+            }
+        ]
     }
 ]
 
-console.log(produtos[0])
-
-console.log(produtos[0].nome_produto)
-
 var gridProdutos = document.getElementById("gridProdutos")
 
-console.log(gridProdutos)
-
 var cardContainer = document.createElement('div')
+cardContainer.className = 'row row-cols-4'
 
 for (i = 0; i < produtos.length; i++) {
 
     let card = document.createElement('div')
-    card.className = 'card shadow cursor-pointer'
+    card.className = 'card shadow cursor-pointer row row-cols-4'
 
     let cardBody = document.createElement('div')
     cardBody.className = 'card-body'
@@ -154,4 +175,4 @@ for (i = 0; i < produtos.length; i++) {
 
 }
 
-gridProdutos.appendChild(cardContainer.innerHTML)
+gridProdutos.appendChild(cardContainer)
