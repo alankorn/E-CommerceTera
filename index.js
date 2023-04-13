@@ -29,12 +29,12 @@ function createItemElement(itemName, itemMarca, itemImg){
     
         
             <div class="col">
-            <div class="card" style="width: 18rem;">
+            <div class="card" style="width: 18rem; background-color:#5166A8;">
             <img src="${itemImg}" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">${itemName}</h5>
-              <p class="card-text">${itemMarca}</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h4 class="card-title" style="color: white;">${itemName}</h5>
+              <p class="card-text" style="color: white;">${itemMarca}</p>
+              <a href="#" class="btn btn-primary visitaProd" >Visitar produto</a>
             </div>
             </div>  
             </div>

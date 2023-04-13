@@ -4,7 +4,7 @@
         "id": "01",
         "tamanhos": ["P","M","G","GG"],
         "material": "Algodão",
-        "marca": "nike",
+        "marca": "Nike",
         "img":"./images/camisa_nike.webp"
       },
   
@@ -13,7 +13,7 @@
           "id": "02",
           "tamanhos": ["P","M","G","GG"],
           "material": "Algodão",
-          "marca": "nike",
+          "marca": "Nike",
           "img" : "./images/calca_moletom.png"
       },
       {
@@ -21,7 +21,7 @@
         "id": "03",
         "tamanhos": ["P","M","G","GG"],
         "material": "Algodão",
-        "marca": "adidas",
+        "marca": "Adidas",
         "img" : "./images/moletomadidas.png"
     },
 
@@ -30,7 +30,7 @@
         "id": "04",
         "tamanhos": ["P","M","G","GG"],
         "material": "Algodão",
-        "marca": "nike",
+        "marca": "Nike",
         "img" : "./images/calca_moletom.png"
     }
 ]
