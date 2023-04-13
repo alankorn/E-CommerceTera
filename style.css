@@ -163,3 +163,13 @@ footer{
     padding: 2%;
     background-color: #5166A8;
 }
+
+#formCadastroProdutos{
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #5166A8;
+    padding: 1rem;
+    border-radius: 1rem;
+
+}
+

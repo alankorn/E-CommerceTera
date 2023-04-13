@@ -1,160 +1,183 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/cadProduto/cadProd.css">
-    
-    <title>Rany Clothes | Cadastro de Produtos</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <title>Rany Clothes | Página Inicial</title>
 </head>
+
 <body>
 
-   <header> 
+  <header>
     <nav class="navbar navbar-expand-lg" nav class="navbar" style="background-color: #5166A8;">
-        <div class="container-fluid">
-          <a href="/index.html"><img src="/images/RANY CLOTHES-1.png" class="logo" alt="" style="padding-right: 1%;"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item" >
-                <p class="nav-link active" aria-current="page" href="#" style="color:white">Cadastro</p>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">usuário</a></li>
-                  <li><a class="dropdown-item" href="#">administrador</a></li>
-                  <li><a class="dropdown-item" href="#">produtos</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <!--<li><a class="dropdown-item" href="#"></a></li>-->
-                  
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contatos</a>
-              </li>
-              <li class="nav-item">
-                <a href="/loginCadastro.html" class="nav-link">Login / Cadastre-se</a>
-              </li>
-              <li>
-                <a href="/sacola/sacola.html"><img id="sacolinha" src="/images/sacolas-de-compras.png" alt=""></a>
-              </li>
-              
-            </ul>
-            
-           <!-- <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Pesquise seus produtos favoritos!" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Pesquisar</button>
-            </form>-->
-          </div>
-        
+      <div class="container-fluid">
+        <img src="../images/RANY CLOTHES-1.png" class="logo" alt="" style="padding-right: 1%;">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#" style="color:white">Página inicial</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Produtos
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Moda Masculina</a></li>
+                <li><a class="dropdown-item" href="#">Moda Feminina</a></li>
+                <li><a class="dropdown-item" href="#">Moda infantil</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Mais opções em breve</a></li>
+                <li><a class="dropdown-item active" href="/cadProduto/cadProd.html">Admin</a></li>
+
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contatos</a>
+            </li>
+            <li class="nav-item">
+              <a href="../loginCadastro.html" class="nav-link">Login / Cadastre-se</a>
+            </li>
+            <li>
+              <a href=""><img id="sacolinha" src="../images/sacolas-de-compras.png" alt=""></a>
+            </li>
+
+          </ul>
+
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Pesquise seus produtos favoritos!"
+              aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+          </form>
         </div>
-      </nav>
-    </header>
 
-   <main>
-      <section id="section">
-        <div id="titulo" ><h1>Cadastro de Produtos</h1></div>
-            
-          <div class="col col-12 conteudo">     
+      </div>
+    </nav>
+  </header>
 
-              <div class="col col-6 formulario">
-                <form>
-                  <fieldset class="grupo">
-                      
-                      <h6 id="subtitulo">Preencha os campos</h6>
-          
-                      <div class="campo">
-                          <label>Cod</label>
-                          <input type="number" id="input0"/>
-                         
-                      </div>
-                      
-                      <div class="campo">
-                          <label>Produto <span>*</span> </label>
-                          <input type="text" id="input1"  required/>
-                         
-                      </div>
-                      
-                      <div class="campo">
-                          <label >Quantidade  <span>*</span> </label>
-                          <input type="number" id="input2" required>
-                      </div>
-                      
-                      <div class="campo">
-                          <label>Valor  <span>*</span> </label>
-                          <input type="number" id="input3" required>
-                      </div>
+  <main style="margin-top: 0.5em;">
+    <section id="formCadastroProdutos">
+      <h2 style="color: white;">Cadastro de produtos</h2>
+      <div class="mb-3">
+        <label for="nomeProd" class="form-label" style="color: white;">Nome do produto</label>
+        <input type="text" class="form-control" id="nomeProd" placeholder="Insira o nome do produto">
+      </div>
+      <div class="mb-3">
+        <label for="marcaProd" class="form-label" style="color: white;">Marca</label>
+        <input type="text" class="form-control" id="marcaProd" placeholder="Insira a Marca">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label" style="color: white;">Nome do produto</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nome do produto">
+      </div>
 
-                      <div class="campo">
-                        <select id="opcoes0">
-                          <option id="Mas">Masculina</option>
-                          <option id="Fem">Feminina</option>
-                          <option id="Inf">Infantil</option>
-                      </select> 
-                      </div>
-
-                      <div class="campo">
-                        <select id="opcoes1">
-                          <option id="op1">Cadastrar</option>
-                          <option id="op2">Remover</option>
-                          <option id="op3">Atualizar</option>
-                      </select> 
-                      </div>
-                      
-                  </fieldset>
-                  
-                  <fieldset id="info">
-          
-                      <div class="campo">
-                      <label id="inf">informações do produto</label>
-                      <textarea name="experiencia" id="descProd" row="6" style="width: 90%;"></textarea>
-                      </div>
-                  </fieldset>    
-                  
-                  <button type="button" class="botao" onclick="enviar()">Enviar</button>
-          
-              </form>
-
-              </div>
-
-              <div class="col col-6 descricao"><img src="/images/RANY CLOTHES-1.png"  id="img-form" alt=""> </div>
-          
-            </div>
-
-      </section>
-      
-   </main> 
-  
-    <footer class=" col col-12.container-fluid">
-        <div class="col col-2" id="redessociais">
-          
-          <div class="col col-6">
-             <h5>Siga-nos nas Redes Sociais</h5>
-             <img src="/images/instagram.png" alt="">
-             <img src="/images/facebook.png" alt="">
-             <img src="/images/whatsapp.png" alt="">
-             <img src="/images/telefone.png" alt="">
-          </div>
+      <div class="row g-3">
+        <div class="col">
+          <label for="generoSelect" class="form-label" style="color: white;">Gênero</label>
+          <select id="generoSelect" class="form-select" aria-label="Default select example">
+            <option selected>Selecione o gênero da peça de roupa</option>
+            <option value="1">Masculino</option>
+            <option value="2">Feminino</option>
+            <option value="3">Unissex</option>
+          </select>
         </div>
-        <div class="col col-2" id="site_seguro">
-          <img src="/images/site-seguro red.png" alt="">
+        <div class="col">
+          <label for="valorProduto" class="form-label" style="color: white;">Valor</label>
+          <input type="text" class="form-control" id="valorProduto" placeholder="Insira o valor da peça de roupa">
         </div>
-        <div class="col col-2" id="formas-pagto">
-          <h5>Formas de Pagamento</h5>
-          <img src="/images/meios_pagamento red.jpg" alt="">
-        </div>
-    </footer>
-    <script src="/cadProduto/cadProduto.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+      </div>
+      <div class="mb-3" style="margin-top: 1%;">
+        <label for="formFileMultiple" class="form-label" style="color: white;">Insira as imagens da peça de
+          roupa</label>
+        <input class="form-control" type="file" id="formFileMultiple" multiple>
+      </div>
+      <h4 style="color: white; font-size: 1rem;">Selecione as cores disponíveis</h4>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="azul">
+        <label class="form-check-label" for="flexCheckDefault" style="color: white;">
+          Azul
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="branco">
+        <label class="form-check-label" for="flexCheckDefault" style="color: white;">
+          Branco
+        </label>
+
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="vermelho">
+        <label class="form-check-label" for="flexCheckDefault" style="color: white;">
+          Vermelho
+        </label>
+
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="amarelo">
+        <label class="form-check-label" for="flexCheckDefault" style="color: white;">
+          Amarelo
+        </label>
+
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="preto">
+        <label class="form-check-label" for="flexCheckDefault" style="color: white;">
+          Preto
+        </label>
+
+      </div>
+      <div class="mb-3">
+        <label for="" class="form-label" style="color: white;">Informações adicionais</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+          placeholder="Insira as informações adicionais sobre o produto"></textarea>
+      </div>
+      <button class="btn btn-lg btn-outline-success" type="submit" onclick="criaUser()">Cadastrar</button>
+    </section>
+  </main>
+
+
+
+
+  <footer class=" col col-12.container-fluid">
+    <div class="col col-2" id="redessociais">
+
+      <div class="col col-6">
+        <h5>Siga-nos nas Redes Sociais</h5>
+        <img src="../images/instagram.png" alt="">
+        <img src="../images/facebook.png" alt="">
+        <img src="../images/whatsapp.png" alt="">
+        <img src="../images/telefone.png" alt="">
+      </div>
+    </div>
+    <div class="col col-2" id="site_seguro">
+      <img src="../images/site-seguro red.png" alt="">
+    </div>
+    <div class="col col-2" id="formas-pagto">
+      <h5>Formas de Pagamento</h5>
+      <img src="../images/meios_pagamento red.jpg" alt="">
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="index.js"></script>
 </body>
+
 </html>
