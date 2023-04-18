@@ -9,7 +9,6 @@
 
 .col{
     margin-top: 0.5em;
-    margin-left: 0.5em;
     min-height: 1rem; 
     display: inline-block;
     width:100%;
@@ -140,9 +139,6 @@ label{
 
 #lembrese{
     color: #fff;
-}
-footer{
-    margin: 0;
 }
 
 #loginButton{
