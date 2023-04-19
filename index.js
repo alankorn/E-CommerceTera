@@ -28,7 +28,7 @@ function createItemElement(itemName, itemMarca, itemImg){
     return `
     
         
-            <div class="col">
+            <div class="col-sm">
             <div class="card" style="width: 18rem; background-color:#5166A8;">
             <img src="${itemImg}" class="card-img-top" alt="...">
             <div class="card-body">

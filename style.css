@@ -8,11 +8,7 @@
 }
 
 .col{
-    margin-top: 0.5em;
-    min-height: 1rem; 
-    display: inline-block;
-    width:100%;
-    
+    margin-top: 2%;
 }
 
 .headder, .footer{
@@ -43,8 +39,6 @@
     color: white;
     font-family: 'Lato', sans-serif;
     font-weight: 900;
-
-
 }
 
 .nav-item :hover{
@@ -108,25 +102,12 @@ h5{
 }
 
 .imgconteudo{
-    width: 50%;
-    margin-left: 25%;
-    margin-top: 3%;
-    
-}
-
-.imgconteudo3{
-    width: 90%;
-    margin-left: 10%;
-    margin-top: 3%;
+    width: 30rem;
+    margin-top: 2%;
 }
 
 
 
-.conteudo3{
-  width: 50%;
-  margin-left: 50%;
-  transform: translateX(-50%);
-}
 
 .form-login{
     background-color: #5166A8;
@@ -176,4 +157,6 @@ label{
     border-color: white;
 }
 
-
+.card{
+    margin-top: 2%;
+}
