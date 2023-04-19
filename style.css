@@ -158,6 +158,7 @@ label{
     margin-bottom: 1rem;
     padding: 2%;
     background-color: #5166A8;
+    border-radius: 2%;
 }
 
 #formCadastroProdutos{
@@ -174,4 +175,5 @@ label{
     background-color: white;
     border-color: white;
 }
+
 

@@ -13,6 +13,8 @@ function criaUser(){
     newUser.lastNameUser = lastName;
     newUser.cpfUser = cpf;
     newUser.emailUser = email;
+    
+    
     if(password == passwordConfirm){
         newUser.userPassword = password
         users.push(newUser)
