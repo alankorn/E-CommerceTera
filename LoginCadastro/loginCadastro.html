@@ -236,7 +236,7 @@
     document.addEventListener("DOMContentLoaded", function () {
       console.log("carregado")
       let cep_mask = IMask(document.getElementById("inputCEP"), { mask: "00000-000" })
-      cep_mask.on("complete", function () { console.log(mask.value) });
+      cep_mask.on("complete", function () { console.log(cep_mask.value) });
       let cpf_mask = IMask(document.getElementById("inputCPF"), { mask: "000.000.000-00" })
     })
   </script>
